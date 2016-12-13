@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 2_bornier_connection
+#
+DEF 2_bornier_connection brnr_cntn 0 40 Y Y 1 F N
+F0 "brnr_cntn" 0 -200 60 H V C CNN
+F1 "2_bornier_connection" 0 200 60 H V C CNN
+F2 "" 0 -50 60 H I C CNN
+F3 "" 0 -50 60 H I C CNN
+DRAW
+S -100 100 100 -100 0 1 0 N
+X GND 1 300 50 200 L 50 50 1 1 I
+X VDD 2 300 -50 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MAX31855K_breakout
+#
+DEF MAX31855K_breakout 31855k_brk 0 40 Y Y 1 F N
+F0 "31855k_brk" 50 -400 60 H V C CNN
+F1 "MAX31855K_breakout" 50 400 60 H V C CNN
+F2 "" -50 100 60 H I C CNN
+F3 "" -50 100 60 H I C CNN
+DRAW
+S -400 300 300 -300 0 1 0 N
+X GND 1 500 250 200 L 50 50 1 1 I
+X VCC 2 500 150 200 L 50 50 1 1 I
+X SCK 3 500 50 200 L 50 50 1 1 I
+X SO 4 500 -50 200 L 50 50 1 1 I
+X NC 5 500 -150 200 L 50 50 1 1 I
+X CS 6 500 -250 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
