@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 0900BL15C050
+F https://www.johansontechnology.com/datasheets/0900BL15C050/0900BL15C050.pdf
+$ENDCMP
+#
 #End Doc Library
