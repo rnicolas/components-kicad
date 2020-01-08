@@ -4,4 +4,9 @@ $CMP 0900BL15C050
 F https://www.johansontechnology.com/datasheets/0900BL15C050/0900BL15C050.pdf
 $ENDCMP
 #
+$CMP MAX44264EWT+T
+D MAXIM INTEGRATED PRODUCTS - MAX44264EWT+T - Operational Amplifier, RRIO, 1 Amplifier, 9 kHz, 2 V/ms, 1.8V to 5.5V, WLP, 6 Pins
+F https://componentsearchengine.com/Datasheets/1/MAX44264EWT+T.pdf
+$ENDCMP
+#
 #End Doc Library
