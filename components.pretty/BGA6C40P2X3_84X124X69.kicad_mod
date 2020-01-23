@@ -1,14 +1,11 @@
-(module "BGA6C40P2X3_84X124X69" (layer F.Cu)
+(module BGA6C40P2X3_84X124X69 (layer F.Cu) (tedit 5E297D95)
   (descr "6 WLP")
   (tags "Integrated Circuit")
   (attr smd)
-  (fp_text reference IC** (at 0 0) (layer F.SilkS)
+  (fp_text reference IC** (at -0.02 -2.68) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "BGA6C40P2X3_84X124X69" (at 0 0) (layer F.SilkS) hide
+  (fp_text value BGA6C40P2X3_84X124X69 (at -0.02 2.8) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )
   (fp_line (start -1.425 -1.625) (end 1.425 -1.625) (layer F.CrtYd) (width 0.05))
